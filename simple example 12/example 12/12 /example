@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int np,hr,bp;
+    cout<<"ENTER THE BASIC PAY OF MONTHLY SALARY "<<endl;
+    cin>>bp;
+ cout<<"ENTER THE house rate monthly "<<endl;
+    cin>>hr;
+    np=hr+bp;
+    cout<<"NET PAY="<<np;
+
+return 0;
+}
