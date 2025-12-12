@@ -1,0 +1,17 @@
+WRITR A PROGRAM THAT PRINT THE POSITIVE ODD NUMBER UP TO 50 SKIPPING THOSE THAT ARE DIVISIBLE BY 5 USING CONTINUE STATEMENT.
+#include <iostream>
+using namespace std;
+int main() {
+   int i;
+   cout<<"GIVEN NUMBER IS THAT";
+   for(i=1;i<=50;i++)
+   if(i%5==0)
+   {
+continue;
+}
+   else
+   {
+       cout<<""<<i<<endl;
+   }
+    return 0;
+}
