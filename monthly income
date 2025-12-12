@@ -1,0 +1,25 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    int bp,hr;
+    float np;
+    cout<<"Enter the basic pay"<<endl;
+    cin>>bp;
+    if(bp<30000)
+    {
+    hr=bp*30/100;
+    }
+    else if(bp>=3000 && bp<=5000)
+    {
+    hr=bp*35/100;
+    }
+    else
+    {
+    hr=bp*40/100;
+    }
+    np=bp+hr;
+    cout<<"NET PAY OF MONTHLY INCOME IS :: "<<np;
+    
+    return 0;
+}
